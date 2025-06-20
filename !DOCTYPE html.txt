@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FastCars - Buy Your Dream Car</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      padding: 20px;
+    }
+    .car {
+      background: #fff;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    .car img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+    .car h2 {
+      margin-top: 10px;
+    }
+    .car p {
+      color: #555;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🚗 FastCars - Buy Your Dream Car</h1>
+  </header>
+
+  <div class="container">
+    <div class="car">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Tesla_Model_S_Plaid_IMG_0155.jpg" alt="Tesla Model S">
+      <h2>Tesla Model S</h2>
+      <p>Price: $80,000</p>
+      <p>Electric, 1020 HP, 0-100 km/h in 2.1s</p>
+    </div>
+
+    <div class="car">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/BMW_M3_Competition_G80_IMG_5166.jpg" alt="BMW M3">
+      <h2>BMW M3 Competition</h2>
+      <p>Price: $72,000</p>
+      <p>Gasoline, 503 HP, 0-100 km/h in 3.8s</p>
+    </div>
+
+    <div class="car">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Audi_RS7_Sportback_IMG_3724.jpg" alt="Audi RS7">
+      <h2>Audi RS7 Sportback</h2>
+      <p>Price: $114,000</p>
+      <p>Gasoline, 591 HP, 0-100 km/h in 3.6s</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 FastCars. All rights reserved.
+  </footer>
+
+</body>
+</html>
